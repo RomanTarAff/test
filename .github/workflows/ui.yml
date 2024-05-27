@@ -20,7 +20,7 @@ jobs:
           distribution: 'zulu'
 
       - name: Run Test
-        run: ./mvnw verify
+        run: mvn clean test -Pui -DsuiteXmlFile=ui
         continue-on-error: true
 
       - name: Setup Allure History
