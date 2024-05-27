@@ -6,7 +6,6 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import ui.BasePage;
 import ui.form.RightMenuPanel;
-import ui.model.OfferPayment;
 import util.RegExUtil;
 
 public class OfferPage extends BasePage {

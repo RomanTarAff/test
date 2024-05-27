@@ -74,39 +74,27 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
             <version>4.3.0</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>4.3.0</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>xml-path</artifactId>
             <version>4.3.0</version>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-path</artifactId>
             <version>4.3.0</version>
-            <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>com.arakelian</groupId>
             <artifactId>faker</artifactId>
             <version>3.9.0</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -161,7 +149,7 @@
 
     <profiles>
         <profile>
-            <id>uitests</id>
+            <id>ui</id>
             <build>
                 <plugins>
                     <plugin>

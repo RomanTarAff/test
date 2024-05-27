@@ -1,11 +1,9 @@
 package util;
 
-import lombok.experimental.UtilityClass;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@UtilityClass
 public class RegExUtil {
 
     public static final String INT_OR_DOUBLE_VALUE_REGEX = "[0-9]+[.,]?[0-9]*";

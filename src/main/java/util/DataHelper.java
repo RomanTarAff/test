@@ -1,9 +1,7 @@
 package util;
 
 import com.github.javafaker.Faker;
-import lombok.experimental.UtilityClass;
 
-@UtilityClass
 public class DataHelper {
 
     private final Faker faker = new Faker();

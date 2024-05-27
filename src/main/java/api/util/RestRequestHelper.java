@@ -1,13 +1,11 @@
 package api.util;
 
 import io.restassured.response.Response;
-import lombok.experimental.UtilityClass;
 
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-@UtilityClass
 public class RestRequestHelper {
 
     public static Response getRequest(String url, Map<String, String> params) {

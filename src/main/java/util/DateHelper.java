@@ -1,14 +1,12 @@
 package util;
 
 import com.github.javafaker.Faker;
-import lombok.experimental.UtilityClass;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@UtilityClass
 public class DateHelper {
 
     private final DateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
