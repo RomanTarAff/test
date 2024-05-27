@@ -23,6 +23,7 @@ jobs:
         run: mvn clean test -Pui -DsuiteXmlFile=ui
 
       - uses: actions/upload-artifact@master
+        if: always()
         with:
           name: allure-results
           path: allure-results
